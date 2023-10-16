@@ -6,10 +6,11 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application" %>
     <%= vite_client_tag %>
+    <%= stylesheet_link_tag "application" %>
     <%= vite_react_refresh_tag %>
-    <%= vite_javascript_tag 'application' %>
+    <%= vite_typescript_tag 'application' %>
+    <%= vite_stylesheet_tag 'main.scss' %>
     <!--
       If using a TypeScript entrypoint file:
         vite_typescript_tag 'application'
